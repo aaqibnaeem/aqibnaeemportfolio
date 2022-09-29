@@ -75,7 +75,6 @@ label {
   margin: 20px 0;
   font-size: 24px;
   text-decoration: underline;
-  letter-spacing: 2px;
 }
 
 .services {
@@ -126,6 +125,7 @@ label {
 
 .about-img {
   width: 200px;
+  margin: 0 20px;
 }
 
 .about-details {
@@ -152,6 +152,7 @@ p {
 .contact-img {
   width: 300px;
   object-fit: contain;
+  margin: 0 20px;
 }
 
 .contact-form-container{
@@ -177,6 +178,8 @@ table {
 #submit{
     margin: 0 auto;
     display: block;
+    cursor: pointer;
+    color: #2b4f71;
 }
 
 .footer {
@@ -186,6 +189,28 @@ table {
   justify-content: center;
   background-color: #2b4f71;
   color: #ffffff;
+}
+
+.footer-social{
+  display: flex;
+}
+
+.fa-github{
+  color: #ffffff;
+  margin: 0 8px;
+  font-size: 24px;
+}
+
+.fa-facebook{
+  color: #ffffff;
+  margin: 0 8px;
+  font-size: 20px;
+}
+
+.fa-instagram{
+    color: #ffffff;
+    margin: 0 8px;
+    font-size: 20px;
 }
 
 /* Media Queries */
